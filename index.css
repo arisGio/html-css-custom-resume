@@ -34,25 +34,21 @@ main {
 section {
     margin: 0 20px;
 }
-
+/* ------------------------------ .left > .me ------------------------------ */
 #profile_picture {
     width: 200px;
     height: auto;
     border-radius: 8px;
 }
 
-.left p {
-    display: flex;
-}
-
-.left p > img {
-    margin-right: 10px;
+.me > ul  {
+    list-style-type: none;
 }
 
 .when {
     color: blue;
 }
-
+/* ------------------------------ all divs ------------------------------ */
 div {
     display: flex;
     flex-direction: column;
