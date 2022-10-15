@@ -1,0 +1,44 @@
+/* -------------- GLOBAL STYLING --------------- */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    min-height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------ HEADER -------------- */
+header  {
+    margin: 20px auto;
+}
+/* ------------- MAIN --------------- */
+main {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section {
+    margin: 0 20px;
+}
+
+.left {
+    border-right: 1px solid black;
+}
+
+#profile_picture {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+/* ------------- FOOTER ------------- */
+footer {
+    margin: 20px auto;
+}
