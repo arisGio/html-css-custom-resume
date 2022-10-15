@@ -1,4 +1,4 @@
-/* -------------- GLOBAL STYLING --------------- */
+/* ------------------------------ GLOBAL STYLING ------------------------------ */
 /* * {
     margin: 0;
     padding: 0;
@@ -7,18 +7,24 @@
 
 body {
     min-height: 100vh;
-    width: 80vw;
+    /* width: 80vw; */
+    width: 100vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-/* ------------ HEADER -------------- */
+/* ------------------------------ HEADER ------------------------------ */
 header  {
-    margin: 20px auto;
+    margin: 5px auto;
 }
-/* ------------- MAIN --------------- */
+/* ------------------------------ MAIN ------------------------------ */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
 main {
     margin: 0 auto;
     display: grid;
@@ -29,16 +35,37 @@ section {
     margin: 0 20px;
 }
 
-.left {
-    border-right: 1px solid black;
-}
-
 #profile_picture {
     width: 200px;
     height: auto;
     border-radius: 8px;
 }
-/* ------------- FOOTER ------------- */
+
+.left p {
+    display: flex;
+}
+
+.left p > img {
+    margin-right: 10px;
+}
+
+.when {
+    color: blue;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+}
+
+/* h2 {
+    text-align: center;
+} */
+/* ------------------------------ FOOTER ------------------------------ */
 footer {
-    margin: 20px auto;
+    margin: 5px auto;
 }
