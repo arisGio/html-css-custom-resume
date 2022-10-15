@@ -57,6 +57,14 @@ div {
     border: 1px solid lightgrey;
     border-radius: 8px;
 }
+/* ------------------------------ .hard-skills ------------------------------ */
+.hard-skills > ul {
+    list-style-type: none;
+}
+.hard-skills > ul > li {
+    display: flex;
+    align-items: center;
+}
 /* ------------------------------ FOOTER ------------------------------ */
 footer {
     margin: 5px auto;
